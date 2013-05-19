@@ -17,22 +17,22 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
-    <!-- PathMenu -->
-    <style name="PathMenuBtn">
+    <!-- AnimationMenu -->
+    <style name="AnimationMenuBtn">
         <item name="android:layout_width">25dp</item>
         <item name="android:layout_height">25dp</item>
         <item name="android:layout_marginLeft">0dp</item>
         <item name="android:layout_marginTop">0dp</item>
         <item name="android:layout_gravity">center</item>
     </style>
-    <style name="PathMenuBtn2">
+    <style name="AnimationMenuBtn2">
         <item name="android:layout_width">25dp</item>
         <item name="android:layout_height">25dp</item>
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:layout_gravity">left|bottom</item>
     </style>
-    <style name="PathTestBtn">
+    <style name="AnimationTestBtn">
         <item name="android:textSize">9dp</item>
         <item name="android:layout_width">90dp</item>
         <item name="android:layout_height">40dp</item>
