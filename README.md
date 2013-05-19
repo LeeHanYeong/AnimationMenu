@@ -5,6 +5,7 @@ Pop-up animation menu looks like the menu of [Path 2.0](https://path.com/)
 
 ##Setup
 이클립스에서 AnimationMenu 라이브러리 프로젝트를 Import합니다.
+
 사용할 프로젝트에서 AnimationMenu 프로젝트를 라이브러리로 추가해줍니다.
 
 ##Usage
@@ -30,6 +31,7 @@ Pop-up animation menu looks like the menu of [Path 2.0](https://path.com/)
 
 - 추가한 View는 xml의 미리보기에서 어떻게 나타날지 보여집니다.
 - Code
+
         <?xml version="1.0" encoding="utf-8"?>
         <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
