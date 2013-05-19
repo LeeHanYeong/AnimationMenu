@@ -12,9 +12,9 @@ Thumbs.db
 .DS_Store
 
 ##### Android #####
-bin/
+#bin/
 gen/
-.classpath
+#.classpath
 R.java
 *.com
 *.class
