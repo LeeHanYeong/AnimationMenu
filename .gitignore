@@ -1,0 +1,36 @@
+##### Common #####
+*.cache
+
+##### Windows #####
+ehthumbs.db
+Thumbs.db
+*.dll
+*.exe
+
+##### Mac #####
+.DS_Store*
+.DS_Store
+
+##### Android #####
+bin/
+gen/
+.classpath
+R.java
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dex
+*.apk
+resources.ap_                                                            
+.metadata/
+
+##### iPhone ######
+/Podfile
+/Pods
+Podfile.lock
+*.xcworkspace
+xcuserdata/
+

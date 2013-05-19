@@ -1,0 +1,198 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/test"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ToggleButton
+            android:id="@+id/tbtnPathMenu1"
+            style="@style/PathTestBtn"
+            android:textOn="SubEffect1 On"
+            android:textOff="SubEffect1 Off" />
+        <ToggleButton
+            android:id="@+id/tbtnPathMenu2"
+            style="@style/PathTestBtn"
+            android:textOn="SubEffect2 On"
+            android:textOff="SubEffect2 Off" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnPathMenuLEFT_TOP"
+            style="@style/PathTestBtn"
+            android:text="LEFT_TOP" />
+
+        <Button
+            android:id="@+id/btnPathMenuLEFT_BOTTOM"
+            style="@style/PathTestBtn"
+            android:text="LEFT_BOTTOM" />
+
+        <Button
+            android:id="@+id/btnPathMenuRIGHT_TOP"
+            style="@style/PathTestBtn"
+            android:text="RIGHT_TOP" />
+
+        <Button
+            android:id="@+id/btnPathMenuRIGHT_BOTTOM"
+            style="@style/PathTestBtn"
+            android:text="RIGHT_BOTTOM" />
+
+        <Button
+            android:id="@+id/btnPathMenuROUND"
+            style="@style/PathTestBtn"
+            android:text="ROUND" />
+
+        <Button
+            android:id="@+id/btnPathMenuTOP"
+            style="@style/PathTestBtn"
+            android:text="TOP" />
+
+        <Button
+            android:id="@+id/btnPathMenuTOP_INV"
+            style="@style/PathTestBtn"
+            android:text="TOP_INV" />
+
+        <Button
+            android:id="@+id/btnPathMenuBOTTOM"
+            style="@style/PathTestBtn"
+            android:text="BOTTOM" />
+
+        <Button
+            android:id="@+id/btnPathMenuBOTTOM_INV"
+            style="@style/PathTestBtn"
+            android:text="BOTTOM_INV" />
+
+        <Button
+            android:id="@+id/btnPathMenuHORIZONTAL"
+            style="@style/PathTestBtn"
+            android:text="HORIZONTAL" />
+
+        <Button
+            android:id="@+id/btnPathMenuVERTICAL"
+            style="@style/PathTestBtn"
+            android:text="VERTICAL" />
+    </LinearLayout>
+    
+    <arcanelux.animationmenu.AnimationMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lhy_PathMenu1">
+        <ImageButton
+            android:id="@+id/btnPathMainBtn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="MainBtn" />
+        
+    </arcanelux.animationmenu.AnimationMenu>
+    
+    <arcanelux.animationmenu.AnimationMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lhy_PathMenu2">
+        <ImageButton
+            android:id="@+id/btnPathMainBtn2"
+            android:layout_gravity="bottom|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="MainBtn" />
+    </arcanelux.animationmenu.AnimationMenu>
+
+<!--     <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub1"
+            style="@style/PathMenuBtn"
+            android:background="@drawable/btn1back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub2"
+            style="@style/PathMenuBtn"
+            android:background="@drawable/btn2back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub3"
+            style="@style/PathMenuBtn"
+            android:background="@drawable/btn3back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub4"
+            style="@style/PathMenuBtn"
+            android:background="@drawable/btn4back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub5"
+            style="@style/PathMenuBtn"
+            android:background="@drawable/btn5back" />
+
+        <ImageButton
+            android:id="@+id/btnPathMainBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="MainBtn" />
+    </FrameLayout> -->
+    
+<!--     <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="bottom"
+        android:layout_height="match_parent" >
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub2_1"
+            style="@style/PathMenuBtn2"
+            android:background="@drawable/btn1back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub2_2"
+            style="@style/PathMenuBtn2"
+            android:background="@drawable/btn2back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub2_3"
+            style="@style/PathMenuBtn2"
+            android:background="@drawable/btn3back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub2_4"
+            style="@style/PathMenuBtn2"
+            android:background="@drawable/btn4back" />
+
+        <arcanelux.animationmenu.PathMenuBtn
+            android:id="@+id/btnPathSub2_5"
+            style="@style/PathMenuBtn2"
+            android:background="@drawable/btn5back" />
+
+        <ImageButton
+            android:id="@+id/btnPathMainBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="MainBtn" />
+    </RelativeLayout> -->
+
+</FrameLayout>
