@@ -1,6 +1,7 @@
 #AnimationMenu
 
 Pop-up animation menu looks like the menu of [Path 2.0](https://path.com/) 
+[Google play](https://play.google.com/store/apps/details?id=arcanelux.animationmenu.demo)
 
 
 ##Setup
