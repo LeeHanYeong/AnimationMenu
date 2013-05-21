@@ -1,4 +1,5 @@
-package arcanelux.animationmenuexample;
+package arcanelux.animationmenu.demo;
+
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -26,7 +27,7 @@ public class AnimationMenuActivity extends Activity implements OnClickListener, 
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.example);
+		setContentView(R.layout.demo);
 		mContext = this;
 		
 		/** AnimationMenu **/

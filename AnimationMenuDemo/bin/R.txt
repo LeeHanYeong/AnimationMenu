@@ -26,7 +26,7 @@ int id btnAnimationMenuVERTICAL 0x7f08000d
 int id tbtnAnimationMenu1 0x7f080001
 int id tbtnAnimationMenu2 0x7f080002
 int id test 0x7f080000
-int layout example 0x7f030000
+int layout demo 0x7f030000
 int menu main 0x7f070000
 int string action_settings 0x7f050001
 int string app_name 0x7f050000
